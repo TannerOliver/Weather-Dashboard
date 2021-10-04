@@ -1,0 +1,59 @@
+*{
+    background-color:#414b56;
+    color:#d2d6d9;
+}
+.header-text{
+    text-align: center;
+    font-size: xx-large;
+    height: 10vh;
+    padding-top: 2.5vh;
+    border-top: 10px solid white;
+}
+main{
+    border: 2px solid black;
+    display:flex;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+h3{
+    text-align:center;
+    height:5vh;
+}
+.current-city-container{
+    width: 85vw;
+    height: 45vh;
+}
+.five-day-forecast{
+    height: 45vh;
+    width: 85vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    border: 5px solid #7b858A;
+    border-radius:25px;
+    width: 12.5vw;
+    height: 30vh;
+    margin-top: 7.5vh;
+    background-color: #b2bcc0;
+    color: #000;
+    box-shadow:15px -17px #000;
+}
+h2 {
+    height: 5vh;
+}
+.sidebar{
+    height: 20vh;
+    width: 15vw;
+    margin-top: 5vh;
+    background-color: #b2bcc0;
+    border-radius: 15px;
+}
+.savedCities {
+    height:75vh;
+    margin-top:12.5vh;
+    background-color: #b2bcc0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
