@@ -22,12 +22,12 @@
                 Search for a City:
             </h2>
 
-            <input type="text" class = "text">
+            <input type="text" class="city" value="Minneapolis">
 
             <button type="button" class="searchBtn">
                 Search
             </button>
-            <div class="savedCities">
+            <div id="savedCities" class="savedCities">
 
             </div>
         </aside>
@@ -35,13 +35,16 @@
         <section class="main-content">
 
             <h3>
-                Current City info and Date
+                Weather Dashboard
             </h3>
 
             <article class="current-city-container">
-                <div class= >
+                <h3 id='curCity'></h3>
+                <p id="curTemp"></p>
+                <p id='curWind'></p>
+                <p id='curHumid'></p>
+                <p id='curUVI'></p>
 
-                </div>
             </article>
 
             <h3>
@@ -49,21 +52,11 @@
             </h3>
 
             <article class="five-day-forecast">
-                <div class="card">
-                    #1
-                </div>
-                <div class="card">
-                    #2
-                </div>
-                <div class="card">
-                    #3
-                </div>
-                <div class="card">
-                    #4
-                </div>
-                <div class="card">
-                    #5
-                </div>
+                <div class="card" id='1'></div>
+                <div class="card" id='2'></div>
+                <div class="card" id='3'></div>
+                <div class="card" id='4'></div>
+                <div class="card" id='5'></div>
 
             </article>
         </section>
