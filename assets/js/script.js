@@ -58,6 +58,7 @@ function appendingCurrentHtml(data) {
 };
 
 function appendingForecast(data) {
+  // I need to clear previous data set if they are using the website to search more then one city
   let forecast1 = document.getElementById('1');
   let forecast2 = document.getElementById('2');
   let forecast3 = document.getElementById('3');
@@ -65,43 +66,43 @@ function appendingForecast(data) {
   let forecast5 = document.getElementById('5');
 
   let template = `<br>
-  <p>${tomorrow}</p>
-  <p>emoji</p>
-  <p>Temp: ${data.daily[1].temp.day}°F</p>
-  <p>Wind: ${data.daily[1].wind_speed} MPH</p>
-  <p>Humidity: ${data.daily[1].humidity} %</p>`;
+  <p class="card-info">${tomorrow}</p>
+  <p class="card-info">emoji</p>
+  <p class="card-info">Temp: ${data.daily[1].temp.day}°F</p>
+  <p class="card-info">Wind: ${data.daily[1].wind_speed} MPH</p>
+  <p class="card-info">Humidity: ${data.daily[1].humidity} %</p>`;
   forecast1.insertAdjacentHTML('beforeend', template);
 
   let template2 = `<br>
-  <p>${tomorrow2}</p>
-  <p>emoji</p>
-  <p>Temp: ${data.daily[2].temp.day}°F</p>
-  <p>Wind: ${data.daily[2].wind_speed} MPH</p>
-  <p>Humidity: ${data.daily[2].humidity} %</p>`;
+  <p class="card-info">${tomorrow2}</p>
+  <p class="card-info">emoji</p>
+  <p class="card-info">Temp: ${data.daily[2].temp.day}°F</p>
+  <p class="card-info">Wind: ${data.daily[2].wind_speed} MPH</p>
+  <p class="card-info">Humidity: ${data.daily[2].humidity} %</p>`;
   forecast2.insertAdjacentHTML('beforeend', template2);
 
   let template3 = `<br>
-  <p>${tomorrow3}</p>
-  <p>emoji</p>
-  <p>Temp: ${data.daily[3].temp.day}°F</p>
-  <p>Wind: ${data.daily[3].wind_speed} MPH</p>
-  <p>Humidity: ${data.daily[3].humidity} %</p>`;
+  <p class="card-info">${tomorrow3}</p>
+  <p class="card-info">emoji</p>
+  <p class="card-info">Temp: ${data.daily[3].temp.day}°F</p>
+  <p class="card-info">Wind: ${data.daily[3].wind_speed} MPH</p>
+  <p class="card-info">Humidity: ${data.daily[3].humidity} %</p>`;
   forecast3.insertAdjacentHTML('beforeend', template3);
 
   let template4 = `<br>
-  <p>${tomorrow4}</p>
-  <p>emoji</p>
-  <p>Temp: ${data.daily[4].temp.day}°F</p>
-  <p>Wind: ${data.daily[4].wind_speed} MPH</p>
-  <p>Humidity: ${data.daily[4].humidity} %</p>`;
+  <p class="card-info">${tomorrow4}</p>
+  <p class="card-info">emoji</p>
+  <p class="card-info">Temp: ${data.daily[4].temp.day}°F</p>
+  <p class="card-info">Wind: ${data.daily[4].wind_speed} MPH</p>
+  <p class="card-info">Humidity: ${data.daily[4].humidity} %</p>`;
   forecast4.insertAdjacentHTML('beforeend', template4);
 
   let template5 = `<br>
-  <p>${tomorrow5}</p>
-  <p>emoji</p>
-  <p>Temp: ${data.daily[5].temp.day}°F</p>
-  <p>Wind: ${data.daily[5].wind_speed} MPH</p>
-  <p>Humidity: ${data.daily[5].humidity} %</p>`;
+  <p class="card-info">${tomorrow5}</p>
+  <p class="card-info">emoji</p>
+  <p class="card-info">Temp: ${data.daily[5].temp.day}°F</p>
+  <p class="card-info">Wind: ${data.daily[5].wind_speed} MPH</p>
+  <p class="card-info">Humidity: ${data.daily[5].humidity} %</p>`;
   forecast5.insertAdjacentHTML('beforeend', template5);
 };
 

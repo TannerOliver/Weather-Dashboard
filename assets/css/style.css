@@ -1,59 +1,64 @@
-*{
-    background-color:#414b56;
-    color:#d2d6d9;
+* {
+  background-color: #2f2fa2;
+  color: white;
 }
-.header-text{
-    text-align: center;
-    font-size: xx-large;
-    height: 10vh;
-    padding-top: 2.5vh;
-    border-top: 10px solid white;
+.header-text {
+  text-align: center;
+  font-size: xx-large;
+  height: 10vh;
+  padding-top: 2.5vh;
 }
-main{
-    border: 2px solid black;
-    display:flex;
-    max-height: 100vh;
-    max-width: 100vw;
+main {
+  display: flex;
+  max-height: 100vh;
+  max-width: 100vw;
 }
-h3{
-    text-align:center;
-    height:5vh;
+h3 {
+  text-align: center;
+  height: 5vh;
 }
-.current-city-container{
-    width: 85vw;
-    height: 45vh;
+.current-city-container {
+  width: 85vw;
+  height: 45vh;
 }
-.five-day-forecast{
-    height: 45vh;
-    width: 85vw;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
+.five-day-forecast {
+  height: 45vh;
+  width: 85vw;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 .card {
-    border: 5px solid #7b858A;
-    border-radius:25px;
-    width: 12.5vw;
-    height: 30vh;
-    margin-top: 7.5vh;
-    background-color: #b2bcc0;
-    color: #000;
-    box-shadow:15px -17px #000;
+  border-radius: 25px;
+  width: 12.5vw;
+  height: 27vh;
+  background-color: #f64c72;
+  box-shadow: 7px -7px #242582;
+}
+.card-info {
+  background-color: #f64c72;
 }
 h2 {
-    height: 5vh;
+  height: 5vh;
 }
-.sidebar{
-    height: 20vh;
-    width: 15vw;
-    margin-top: 5vh;
-    background-color: #b2bcc0;
-    border-radius: 15px;
+.sidebar-header {
+  text-align: center;
+}
+.inputs {
+  height: 10vh;
+  width: 15vw;
+  background-color: #f64c72;
+  border-radius: 15px;
+}
+/* This is the users input */
+.city {
+}
+/* This is the input button */
+.searchBtn {
 }
 .savedCities {
-    height:75vh;
-    margin-top:12.5vh;
-    background-color: #b2bcc0;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+  height: 75vh;
+  margin-top: 0.5vh;
+  background-color: #f64c72;
+  border-radius: 15px;
 }

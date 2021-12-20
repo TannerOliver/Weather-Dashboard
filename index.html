@@ -18,15 +18,17 @@
     <main>
 
         <aside class="sidebar">
-            <h2>
+            <h2 class="sidebar-header">
                 Search for a City:
             </h2>
 
-            <input type="text" class="city" value="Minneapolis">
+            <div class="inputs">
+                <div class="user-input">
+                    <input type="text" class="city" value="Minneapolis">
+                </div>
+                <button type="button" class="searchBtn">Search</button>
+            </div>
 
-            <button type="button" class="searchBtn">
-                Search
-            </button>
             <div id="savedCities" class="savedCities">
 
             </div>
@@ -35,7 +37,7 @@
         <section class="main-content">
 
             <h3>
-                Weather Dashboard
+                Today
             </h3>
 
             <article class="current-city-container">
